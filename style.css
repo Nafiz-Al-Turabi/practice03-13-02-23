@@ -1,0 +1,38 @@
+.heading {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.text-area {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.text-area-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #393b3b;
+    padding: 20px 0 20px 25px;
+
+}
+
+.text-size {
+    width: 20%;
+}
+
+.text-sizes {
+    width: 50%;
+    height: 20px
+}
+
+.text-area-size {
+    border: none;
+    resize: none;
+}
+
+.text-area-size:focus {
+    outline: none;
+    resize: none;
+}
